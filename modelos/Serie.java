@@ -43,9 +43,7 @@ public class Serie extends Titulo{
     public void setMinPorEpsodios(int minPorEpsodios) {
         this.minPorEpsodios = minPorEpsodios;
     }
-    ///a anotacao é uma boa pratica e é opcional sem ela o metodo ainda funciona
-    /// aqui tambem é uma forma de polimorfismo, pois adciona dentro da classe uma
-    /// nova funcionalidade no metodo herdado do titulo!
+    
     @Override
     public int getDuracaoEmMinutos() {
         return temporadas * minPorEpsodios * epPorTemporadas;
