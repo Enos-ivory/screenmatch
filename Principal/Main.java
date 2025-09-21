@@ -19,7 +19,7 @@ public class Main {
         punisher.infoSerie();
         System.out.println("duracao em minutos para maratonar the punisher: "+punisher.getDuracaoEmMinutos());
 
-        /// criacao de um objeto a partir da classe br.com.alura.screenmatch.modelos.Filme, e guardado na variavel filme1
+        /// criacao de um objeto a partir da classe br.com.screenmatch.modelos.Filme, e guardado na variavel filme1
 
         Filme filme1 = new Filme("O conde de monte cristo",2002);
         ///atributos
@@ -51,8 +51,7 @@ public class Main {
 
         var filmeDoPaulo = new Filme("Dogville",2003);
         filmeDoPaulo.setDuracaoEmMinutos(200);
-        //filmeDoPaulo.setNome("Dogville");
-        //filmeDoPaulo.setAnoDoLancamento(2003);
+        
         filmeDoPaulo.avalia(9);
 
         /// craiando um array de objetos e adicionado objetos
